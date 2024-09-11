@@ -17,7 +17,7 @@ $$ L[f(t)] = F(s) $$
 
 $$ \lim_{0 \to \infty} e^{-st} dt[f(t)] = \lim_{0 \to \infty} f(t)e^{-st} $$
 
-### 3.2. Transformada inverda de LaPlace
+### 3.2. Transformada inversa de LaPlace
 La notación de la transformada inversa de Laplace es $L^{-1}$
 
 $$ L^{-1} [F(s)] = f(t) $$
