@@ -102,9 +102,9 @@ $$ L(\lim_{\to \} f(t) dt ) = \frac{1}{s} * F(s) $$
 
 ![tabla-transformada-laplace-a](https://github.com/user-attachments/assets/125c240a-e3b5-4ecb-ac40-3c8dc9a7dcd7)
 
-## 8. Ejercicios
+## 8. 📚 Ejercicios
 
-Halle la transformacion de la siguiente funcion: $L[t^{3}+5t^{2}-3t+8]$
+📚 Halle la transformacion de la siguiente funcion: $L[t^{3}+5t^{2}-3t+8]$
 
 $$ L[t^{3}] + 5L[t^{2}] - 3L[t^{2}] + L[8]
 
@@ -112,19 +112,19 @@ $$ = \frac{3!}{s^{4}} + 5\frac{2!}{s^{3}} - 3\frac{1!}{s^{2}} + \frac{8}{s} $$
 
 $$ = \frac{6}{s^{4}} + \frac{10}{s^{3}} - \frac{3}{s^{2}} + \frac{8}{s} $$
 
-Halle la transformada inversa de la siguiente funcion: $L^{-1} [\frac{1}{s^{2}+s-2}$
+📚 Halle la transformada inversa de la siguiente funcion: $L^{-1} [\frac{1}{s^{2}+s-2}$
 
 $$ = \frac{1}{(s+2)(s-1)} = \frac{A}{s+2} + \frac{B}{s-1} $$
 
 $$ 1 = A(s-1) + B(s+2) $$
 
-si s=1 $B = \frac{1}{3}
+si s=1 $B = \frac{1}{3}$
 
 si s=-2 $A = \frac{-1}{3}$
 
 $$ \frac{-1}{3} L^{-1} [\frac{1}{s+2} + \frac{1}{3} L^{-1} [\frac{1}{s-1} $$
 
-$$ = \frac{-1}{3} e^{-2t} + \frac{1}{3} e^{t} 
+$$ = \frac{-1}{3} e^{-2t} + \frac{1}{3} e^{t} $$
 
 
 
