@@ -124,7 +124,7 @@ $$ t^{2}e^{-t} + 0 + e^{-t} $$
 
 $$ (t^{2} + 1)e^{-t}    (t > 0) $$
 
-## 3. Caso 3. $Q(s) tiene raíces complejas conjugadas:
+## 3. Caso 3. $Q(s)$ tiene raíces complejas conjugadas:
 $$ G(s) = \frac{P(s)}{Q(s)} = \frac{P(S)}{(s^2}+b_{1}s+c_{1})(s^2+b_{2}s+c_{2}).....(s^2+b_{n}s+c_{n}) $$
 
 La descomposición en fracciones parciales es de la forma:
