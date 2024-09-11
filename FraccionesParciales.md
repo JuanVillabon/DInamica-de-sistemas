@@ -9,7 +9,29 @@ $$ G(s) = \frac{A}{(s+p_{1})} + \frac{B}{(s+p_{2})} + ---- + \frac{N}{(s+p_{n})}
 
 Donde A, B, ...... , N coeficientes por determinar.
 
-### 1.1. Ejercicio:
+### 1.1. Ejercicio: $\frac{3x-1}{(x+3)(x-2)}$
+
+$$ \frac{A}{x+3} + \frac{B}{x-2} $$
+
+$$ 3x - = A(x-2) + B(x+3) $$
+
+$$ 3x -1 = Ax -2A + Bx + 3B $$
+
+$$ 3 = A + B $$
+$$ A = 3 - B $$
+
+$$ -1 = -2A + 3B $$
+$$ -1 = -2(3 - B) + 3B $$
+$$ -1 = -6 + 2B + 3B $$
+$$ 6 - 1 = 5B $$
+$$ 5 = 5B $$
+$$ \frac{5}{5} = B $$ 
+$$ 1 = B $$
+
+$$ 3 = A + B $$
+$$ 3 = A + 1 $$
+$$ 3 - 1 = A $$
+$$ 2 = A $$
 
 ### 1.2 Método resumido (Caso 1)
 
@@ -25,8 +47,6 @@ Se cancelan todas menos $a_{k}$
 
 $$ a_{k} = [(s+p_{k}) \frac{S(s)}{B(s)}]_{ s = -pk} $$
 
-1.2. Ejercicio:
-
 
 ## 2. Caso 2. $Q(s)$ tiene n raíces reales repetidos:
 
@@ -39,6 +59,20 @@ $$ G(s) = \frac{A}{(s+p)} + \frac{B}{(s+p)^2} + .... + \frac{N}{(s+p)^n} $$
 Donde A, B, ...... , N coeficientes por determinar.
 
 ### 2.1. Ejercicios:
+
+$$ \frac{7x^{2}+2x-28}{(x-6)(x^{2}+3x+5)} = \frac{A}{x-6} + \frac{Bx+C}{x^{2}+3x+5} $$
+
+$$ 7x^{2} + 2x - 28 = A(x^{2} + 3x + 5) + (Bx + C)(x - 6) $$
+
+$$ 7(6)^{2} + 2(6) - 28 = A((6)^{2} + 3(6) + 5) +(B(6) + C)(6 - 6) $$
+
+$$ 236 = 59A $$
+$$ A = 4 $$
+
+$$ 7 = A + B $$
+$$ 7 = 4 + B $$
+$$ 7 - 4 = B $$
+$$ 3 = B $$
 
 ### 2.2. Metodo resumido Caso 2.
 Se puede aplicar el mismo principio pero teniendo en cuenta los exponentes.
