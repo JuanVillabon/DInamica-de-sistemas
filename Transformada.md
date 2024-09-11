@@ -64,7 +64,10 @@ $$ L[f^{n}] = s^{n}F(s) - s^{n-1}f(0) - - - - sf^{n-1}(0) - f^{n}(0) $$
 
 ### 6.3. Transformada de la integral
 $$ L(\lim_{\to \} f(t) dt ) = \frac{1}{s} * F(s) $$
+
 ## 7. Tabla de transformadas
+
+
 ## 8. Ejercicios
 
 
