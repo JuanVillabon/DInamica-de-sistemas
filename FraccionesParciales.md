@@ -74,6 +74,13 @@ $$ 7 = 4 + B $$
 $$ 7 - 4 = B $$
 $$ 3 = B $$
 
+$$ -28 = 5A - 6C $$
+$$ -28 = 5(4) - 6C $$
+$$ -28 = 20 - 6C $$
+$$ -28 - 20 = - 6C $$
+$$ \frac{-48}{-6} = C $$
+$$ 8 = C $$
+
 ### 2.2. Metodo resumido Caso 2.
 Se puede aplicar el mismo principio pero teniendo en cuenta los exponentes.
 
@@ -98,8 +105,6 @@ $$ t^{2}e^{-t} + 0 + e^{-t} $$
 
 $$ (t^{2} + 1)e^{-t}    (t > 0) $$
 
-### 2.3. Ejercicio:
-
 ## 3. Caso 3. $Q(s) tiene raíces complejas conjugadas:
 $$ G(s) = \frac{P(s)}{Q(s)} = \frac{P(S)}{(s^2}+b_{1}s+c_{1})(s^2+b_{2}s+c_{2}).....(s^2+b_{n}s+c_{n}) $$
 La descomposición en fracciones parciales es de la forma:
@@ -108,5 +113,40 @@ Donde A, B, ...... , N coeficientes por determinar.
 
 ### 3.1. Ejercicios:
 
+$$ \frac{2x^{2}+29x-1}{(2x+1)(x-2)^{2}} $$
+
+$$ \frac{A}{2x+1} + \frac{B}{x-2} + \frac{C}{(x-2)^{2}} $$
+
+$$ 2x^{2} + 29x - 11 = A(x-2)^{2} + B(2x+1)(x-2) + C(2x+1) $$
+
+$$ 2(\frac-{1}{2})^{2} + 29(\frac-{1}{2})^{2} - 11 = A(\frac-{1}{2}-2)^{2} + B(2(\frac-{1}{2})+1)(\frac-{1}{2}-2) + C(2(\frac-{1}{2})+1) $$
+
+$$ -25 = \frac{25}{4}A $$
+
+$$ A = -4 $$
+
+$$ 2(2)^{2} + 29(2) - 11 = A(2-2)^{2} + B(2(2)+1)(2-2) + C(2(2)+1) $$
+
+$$ 55 = 5C $$
+
+$$ C = 11 $$
+
+$$ 2 = A + 2B $$
+$$ 2 = (-4) + 2B $$
+$$ 2 + 4 = 2B $$
+$$ \frac{6}{2} = B $$
+$$ 3 = B $$
+
 ### 3.2. Metodo resumido Caso 3.
+
+$$ F(s) = \frac{2s + 12}{s^{2} + 2s + 5} $$
+
+$$ s^{2} + 2s + 5 = (s + 1 + j2)(s + 1 - j2) $$
+
+Sabiendo que este tipo de raices resulta en la suma de una funcion seno amortiguada con una coseno amortiguada
+
+$$ L[e^{-st} sen wt] = \frac{w}{(s + &)^{2} + w^{2}} $$
+
+$$ L[e^{-st} cos wt] = \frac{w}{(s + &)^{2} + w^{2}} $$
+
 
