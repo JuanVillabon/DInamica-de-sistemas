@@ -18,19 +18,29 @@ $$ 3x - = A(x-2) + B(x+3) $$
 $$ 3x -1 = Ax -2A + Bx + 3B $$
 
 $$ 3 = A + B $$
+
 $$ A = 3 - B $$
 
 $$ -1 = -2A + 3B $$
+
 $$ -1 = -2(3 - B) + 3B $$
+
 $$ -1 = -6 + 2B + 3B $$
+
 $$ 6 - 1 = 5B $$
+
 $$ 5 = 5B $$
+
 $$ \frac{5}{5} = B $$ 
+
 $$ 1 = B $$
 
 $$ 3 = A + B $$
+
 $$ 3 = A + 1 $$
+
 $$ 3 - 1 = A $$
+
 $$ 2 = A $$
 
 ### 1.2 Método resumido (Caso 1)
@@ -67,18 +77,27 @@ $$ 7x^{2} + 2x - 28 = A(x^{2} + 3x + 5) + (Bx + C)(x - 6) $$
 $$ 7(6)^{2} + 2(6) - 28 = A((6)^{2} + 3(6) + 5) +(B(6) + C)(6 - 6) $$
 
 $$ 236 = 59A $$
+
 $$ A = 4 $$
 
 $$ 7 = A + B $$
+
 $$ 7 = 4 + B $$
+
 $$ 7 - 4 = B $$
+
 $$ 3 = B $$
 
 $$ -28 = 5A - 6C $$
+
 $$ -28 = 5(4) - 6C $$
+
 $$ -28 = 20 - 6C $$
+
 $$ -28 - 20 = - 6C $$
+
 $$ \frac{-48}{-6} = C $$
+
 $$ 8 = C $$
 
 ### 2.2. Metodo resumido Caso 2.
@@ -91,11 +110,11 @@ $$ F(s) = \frac{A(s)}{B(s)} = \frac{b_{3}}{(s+1)^{3}} + \frac{b_{2}}{(s+1)^{2}} 
 
 $$ (s + 1)^{3} \frac{A(s)}{B(s)} = b_{3} + b_{2}(s+1) + b_{1}(s+1)^{2} $$
 
-$$ b_{3} = |(s+1)^{3}\frac{A(s)}{B(s)}_{s=1}| = (s^{2}+2s+3)_{s=-1} = 2 $$
+$$ b_{3} = (s + 1)^{3} \frac{A(s)}{B(s)} _{s=-1} = (s^{2}+2s+3) _{s=-1} = 2 $$
 
-$$ b_{2} = (\frac{d}{ds}[(s + 1)^{3} \frac{A(s)}{B(s)}])_{s=-1} = [\frac{d}{ds} (s^{2} + 2s + 3)]_{s=-1} = (2s + 2)_{s=-1} = 0 $$
+$$ b_{2} = \frac{d}{ds} [(s+1)^{3} \frac{A(s)}{B(s)}] _{s=-1} = [\frac{d}{ds} (s^{2}+2s+3)] _{s=-1} = (2s + 2) _{s=-1} = 0$$
 
-$$ b_{1} = \frac{1}{2!} (\frac{d^{2}}{ds^{2}} [(s + 1)^{3} \frac{A(s)}{B(s)}]_{s=-1} = \frac{1}{2!} [ \frac{d^{2}}{ds^{2}} (s^{2} + 2s + 3)]_{s=-1} = \frac{1}{2}(2) = 1 $$
+$$ b_{1} = \frac{1}{2!} ( \frac{d^{2}}{ds^{2}} [(s+1)^{3} \frac{A(s)}{B(s)}] _{s=-1} = \frac{1}{2!} [ \frac{d^{2}}{ds^{2}} (s^{2}+2s+3)] _{s=-1} = \frac{1}{2} (2) = 1 $$
 
 $$ f(t) = L^{-1}[F(s)] $$
 
@@ -107,8 +126,11 @@ $$ (t^{2} + 1)e^{-t}    (t > 0) $$
 
 ## 3. Caso 3. $Q(s) tiene raíces complejas conjugadas:
 $$ G(s) = \frac{P(s)}{Q(s)} = \frac{P(S)}{(s^2}+b_{1}s+c_{1})(s^2+b_{2}s+c_{2}).....(s^2+b_{n}s+c_{n}) $$
+
 La descomposición en fracciones parciales es de la forma:
-$$ G(s) = \frac{As+B}{(s^2+b_{1}s+c_{1}) + \frac{Cs+D}{(s^2+b_{2}s+c_{2})} + ...... + \frac{Ms+N}{(s^2+b_{n}S+c_{n})}
+
+$$ G(s) = \frac{As+B}{(s^{2}+b_{1}s+c_{1}}) + \frac{Cs+D}{(s^{2}+b_{2}s+c_{2}}) + ...... + \frac{Ms+N}{(s^{2}+b_{n}S+c_{n}}) $$
+
 Donde A, B, ...... , N coeficientes por determinar.
 
 ### 3.1. Ejercicios:
@@ -119,7 +141,7 @@ $$ \frac{A}{2x+1} + \frac{B}{x-2} + \frac{C}{(x-2)^{2}} $$
 
 $$ 2x^{2} + 29x - 11 = A(x-2)^{2} + B(2x+1)(x-2) + C(2x+1) $$
 
-$$ 2(\frac-{1}{2})^{2} + 29(\frac-{1}{2})^{2} - 11 = A(\frac-{1}{2}-2)^{2} + B(2(\frac-{1}{2})+1)(\frac-{1}{2}-2) + C(2(\frac-{1}{2})+1) $$
+$$ 2(\frac{-1}{2})^{2} + 29(\frac{-1}{2})^{2} - 11 = A(\frac{-1}{2}-2)^{2} + B(2(\frac{-1}{2})+1)(\frac{-1}{2}-2) + C(2(\frac{-1}{2})+1) $$
 
 $$ -25 = \frac{25}{4}A $$
 
@@ -132,9 +154,13 @@ $$ 55 = 5C $$
 $$ C = 11 $$
 
 $$ 2 = A + 2B $$
+
 $$ 2 = (-4) + 2B $$
+
 $$ 2 + 4 = 2B $$
+
 $$ \frac{6}{2} = B $$
+
 $$ 3 = B $$
 
 ### 3.2. Metodo resumido Caso 3.
@@ -145,8 +171,8 @@ $$ s^{2} + 2s + 5 = (s + 1 + j2)(s + 1 - j2) $$
 
 Sabiendo que este tipo de raices resulta en la suma de una funcion seno amortiguada con una coseno amortiguada
 
-$$ L[e^{-st} sen wt] = \frac{w}{(s + &)^{2} + w^{2}} $$
+$$ L[e^{-st} sen wt] = \frac{w}{(s + a)^{2} + w^{2}} $$
 
-$$ L[e^{-st} cos wt] = \frac{w}{(s + &)^{2} + w^{2}} $$
+$$ L[e^{-st} cos wt] = \frac{w}{(s + a)^{2} + w^{2}} $$
 
 
