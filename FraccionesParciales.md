@@ -1,11 +1,11 @@
 # Descomposicion en fracciones parciales
 ## 1. Caso 1. $Q(s)$ tiene raíces reales distintos:
 
-$$ G(s) = \frac{P(s)}{Q(s)} = \frac{P(S)}{(s+p_{1})(s+p_{2})----(s+p_{n})} $$
+$$ G(s) = \frac{P(s)}{Q(s)} = \frac{P(S)}{(s+p_{1})(s+p_{2}).....(s+p_{n})} $$
 
 La descomposición en fracciones parciales es de la forma:
 
-$$ G(s) = \frac{A}{(s+p_{1})} + \frac{B}{(s+p_{2})} + ---- + \frac{N}{(s+p_{n})} $$
+$$ G(s) = \frac{A}{(s+p_{1})} + \frac{B}{(s+p_{2})} + ..... + \frac{N}{(s+p_{n})} $$
 
 Donde A, B, ...... , N coeficientes por determinar.
 
@@ -175,4 +175,10 @@ $$ L[e^{-st} sen wt] = \frac{w}{(s + a)^{2} + w^{2}} $$
 
 $$ L[e^{-st} cos wt] = \frac{w}{(s + a)^{2} + w^{2}} $$
 
+## Referencias
 
+https://www.neurochispas.com/wiki/cuatro-casos-de-fracciones-parciales-con-ejemplos/
+
+https://www.neurochispas.com/wiki/ejercicios-resueltos-de-fracciones-parciales/
+
+https://openstax.org/books/prec%C3%A1lculo-2ed/pages/9-4-fracciones-parciales
