@@ -104,7 +104,7 @@ $$ L(\lim_{\to \} f(t) dt ) = \frac{1}{s} * F(s) $$
 
 ## 8. 📚 Ejercicios
 
-📚 Halle la transformacion de la siguiente funcion: $L[t^{3}+5t^{2}-3t+8]$
+📚 Halle la transformada de la siguiente funcion: $L[t^{3}+5t^{2}-3t+8]$
 
 $$ L[t^{3}] + 5L[t^{2}] - 3L[t^{2}] + L[8]
 
@@ -126,5 +126,12 @@ $$ \frac{-1}{3} L^{-1} [\frac{1}{s+2} + \frac{1}{3} L^{-1} [\frac{1}{s-1} $$
 
 $$ = \frac{-1}{3} e^{-2t} + \frac{1}{3} e^{t} $$
 
+## Referencias
+
+https://www.google.com/urlsa=i&url=https%3A%2F%2Fm.youtube.com%2Fwatch%3Fv%3Dq1pfDYKUN_E&psig=AOvVaw3Bi8u89bfpj_h7M23eb0RG&ust=1726724529530000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCJjQiqfky4gDFQAAAAAdAAAAABAE
+
+https://cms.dm.uba.ar/academico/materias/2docuat2022/matematica4/Mate4-Laplace.pdf
+
+https://cienciayt.com/wp-content/uploads/matematicas/transformadas-integrales/tabla-transformada-laplace-a.png
 
 
