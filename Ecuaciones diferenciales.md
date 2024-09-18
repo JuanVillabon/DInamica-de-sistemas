@@ -44,16 +44,16 @@ b. Simulador de circuitos
 Un sistema es una combinacion de componentes que actuan conjuntamente para alcanzar un objetivo especifico. La combinacion de componentes se puede representar por medio de reglas o principios que relacionan salidas con las entradas
 
 ### 2.2. Sistema dinámico:
-es un concepto matemático que describe cómo cambia un sistema con el tiempo. Estos sistemas se modelan utilizando ecuaciones diferenciales,  y pueden ser aplicados en una amplia gama de disciplinas como la física, biología, economía, e ingeniería.
+Es un concepto matemático que describe cómo cambia un sistema con el tiempo. Estos sistemas se modelan utilizando ecuaciones diferenciales,  y pueden ser aplicados en una amplia gama de disciplinas como la física, biología, economía, e ingeniería.
 
 ### 2.3. Planta:
-el término planta se refiere al sistema físico o proceso que se desea controlar o analizar. Es el objeto o sistema sobre el cual se actúa mediante un controlador, y su comportamiento se describe a través de ecuaciones matemáticas
+El término planta se refiere al sistema físico o proceso que se desea controlar o analizar. Es el objeto o sistema sobre el cual se actúa mediante un controlador, y su comportamiento se describe a través de ecuaciones matemáticas
 
 ### 2.4. Proceso:
-el término proceso se refiere al conjunto de acciones, interacciones o transformaciones que ocurren dentro de un sistema y que influyen en su comportamiento a lo largo del tiempo.
+El término proceso se refiere al conjunto de acciones, interacciones o transformaciones que ocurren dentro de un sistema y que influyen en su comportamiento a lo largo del tiempo.
 
 ### 2.5. Modelos dinamicos
-es una representación matemática o conceptual que describe cómo un sistema cambia con el tiempo. Los modelos dinámicos se utilizan para predecir el comportamiento de sistemas complejos en función de sus entradas, estados internos y reglas de evolución.
+Es una representación matemática o conceptual que describe cómo un sistema cambia con el tiempo. Los modelos dinámicos se utilizan para predecir el comportamiento de sistemas complejos en función de sus entradas, estados internos y reglas de evolución.
 
 ## 3. Ecuaciones diferenciales
 ### 3.1. Sistemas lineales y no lineales
