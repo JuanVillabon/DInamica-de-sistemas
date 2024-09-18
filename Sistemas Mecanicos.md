@@ -36,14 +36,12 @@ Es un diagrama en el cual se estudia las fuerzas que actuan sobre el, esto permi
 
 ![Captura de pantalla 2024-09-18 003035](https://github.com/user-attachments/assets/b2e0302b-e8fa-4a45-a797-2e0f6d824ab8)
 
+## Vibración libre
+
+Es posible provocar un comportamiento oscilatorio en la variable de salida del sistema durante un intervalo de tiempo definido, por ejemplo en el caso de la suspension si se aplica una fuerza constante durante un intervalo corto de tiempo y se retira dicho estimulo el sistema tiende a vibrar.
+
 ## Referencias
 
 https://www.scielo.br/j/rbef/a/SPX9ZzkN5MmnxRQ3hnPthgS/#:~:text=El%20sistema%20masa%2Dresorte%20est%C3%A1,se%20depositan%20sobre%20el%20platillo.
 
 https://espanol.libretexts.org/Ingenieria/Ingenier%C3%ADa_Mec%C3%A1nica/Mapa_Mec%C3%A1nico_(Moore_et_al.)/01%3A_Fundamentos_de_la_Mec%C3%A1nica_Newtoniana/1.04%3A_Diagramas_de_cuerpo_libre#:~:text=Un%20diagrama%20de%20cuerpo%20libre,ser%20estudiado%20de%20forma%20aislada.
-
-
-
-## Vibración libre
-
-Es posible provocar un comportamiento oscilatorio en la variable de salida del sistema durante un intervalo de tiempo definido, por ejemplo en el caso de la suspension si se aplica una fuerza constante durante un intervalo corto de tiempo y se retira dicho estimulo el sistema tiende a vibrar.
